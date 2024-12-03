@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONITOR TEROS 2763G, 27″ IPS, 240hz</title>
+    <link rel="stylesheet" href="venta.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Volver a Catálogo</a> > 
+            
+            <span>MONITOR TEROS 2763G, 27″ IPS, 240hz</span>
+        </nav>
+    </header>
+
+    <section class="product-container">
+        <div class="product-image">
+            <img src="https://totemhardware.com.pe/wp-content/uploads/2023/11/itemth7ROGLA4070-2.jpg" alt="MONITOR TEROS 2763G, 27″ IPS, 240hz">
+        </div>
+        <div class="product-details">
+            <div class="promo">
+                <span class="discount">12% dto. Oferta online</span>
+            </div>
+            <h1>MONITOR TEROS 2763G, 27″ IPS, 240hz</h1>
+
+            <h3>Elige el color:</h3>
+            <div class="color-options">
+                <input type="radio" id="negro" name="color" value="negro" >
+                <label for="negro"><span class="color-circle" style="background-color: #000000;"></span> Negro</label>
+                <input type="radio" id="blanco" name="color" value="blanco" >
+                <label for="blanco"><span class="color-circle" style="background-color: #ffffff;"></span> Blanco</label>
+            </div>
+
+            <h3>¿Lo quieres?</h3>
+            <div class="buy-options">
+                <label for="buy-modal" class="buy-now">Comprar</label>
+            </div>
+
+            <div class="pricing">
+                <p>Total: <strong>S/462</strong> <span class="discount-price"><s>S/525</s></span> <br> <br> <span class="discount">12% dto.</span></p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Checkbox for controlling the modal -->
+    <input type="checkbox" id="buy-modal" class="modal-toggle">
+    
+    <!-- Modal -->
+    <div class="modal">
+        <label for="buy-modal" class="modal-overlay"></label>
+        <div class="modal-content">
+            <label for="buy-modal" class="cancel-button">Cancelar</label>
+            <h2>Detalles de Compra</h2>
+            <form>
+                <label for="name">Nombre Completo:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="phone">Teléfono:</label>
+                <input type="tel" id="phone" name="phone" required><br><br>
+
+                <label for="address">Dirección de Envío:</label>
+                <textarea id="address" name="address" rows="4" required></textarea><br><br>
+
+                <input type="submit" value="Confirmar Compra">
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024. Todos los derechos son reservados.</p>
+    </footer>
+</body>
+</html>

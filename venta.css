@@ -1,0 +1,392 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+header nav a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+header nav span {
+    color: #555;
+}
+
+.product-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: flex-start; /* Alinea los hijos al inicio en el eje vertical */
+}
+
+.product-image img {
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+.product-details {
+    padding-left: 30px;
+    flex-grow: 1;
+}
+
+.promo {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.discount {
+    background-color: #c4e8b6;
+    color: #388e3c;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.event {
+    background-color: #0d6efd;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.color-options {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.color-circle {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+}
+
+.buy-options {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.buy-button {
+    padding: 10px 20px;
+    border: 1px solid #007bff;
+    background-color: white;
+    color: #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buy-button.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.pricing {
+    margin-bottom: 20px;
+}
+
+.discount-price {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.buy-now {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    align-self: flex-start; /* Evita que el botón se estire */
+    width: auto;
+    height: auto;
+}
+
+.buy-now:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.contact-form-section {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #555;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos responsivos */
+@media (max-width: 600px) {
+    .form-container {
+        padding: 15px;
+    }
+
+    input, textarea {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #0c024a;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.product-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.color-circle {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    margin-right: 10px;
+}
+
+.buy-now {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.buy-now:hover {
+    background-color: #45a049;
+}
+
+.pricing {
+    margin-top: 20px;
+}
+
+/* Modal */
+.modal-toggle {
+    display: none;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    position: relative;
+}
+
+.cancel-button {
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 5px;
+}
+
+.cancel-button:hover {
+    background-color: #e53935;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Show modal when checkbox is checked */
+.modal-toggle:checked ~ .modal {
+    display: flex;
+}
+
